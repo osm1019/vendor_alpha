@@ -251,3 +251,7 @@ include vendor/lineage/config/version.mk
 # Inherit from rro_overlays config
 $(call inherit-product, vendor/lineage/config/rro_overlays.mk)
 
+# Inherit from rro_overlays config
+$(call inherit-product, vendor/pixel-framework/config.mk)
+
+
