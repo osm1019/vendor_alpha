@@ -222,7 +222,6 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 # Inherit from rro_overlays config
 $(call inherit-product, vendor/evolution/config/rro_overlays.mk)
 
-
 # Conditionally inherit firmware
 TARGET_SHIPS_FIRMWARE ?= false
 ifeq ($(TARGET_SHIPS_FIRMWARE),true)
