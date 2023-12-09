@@ -138,3 +138,8 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 
 include vendor/alpha/config/version.mk
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
+
+# Inherit from rro_overlays config
+$(call inherit-product, vendor/lineage/config/rro_overlays.mk)
+# Inherit from rro_overlays config
+$(call inherit-product, vendor/lineage/config/telephony.mk)
