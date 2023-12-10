@@ -28,7 +28,6 @@ PRODUCT_PACKAGES += \
     CaptivePortalLoginOverlay \
     CellBroadcastReceiverOverlay \
     CellBroadcastServiceOverlay \
-    ClearCallingSettingsOverlay2022 \
     ContactsProviderOverlay \
     DMServiceOverlay \
     FlipendoOverlay \
@@ -55,24 +54,11 @@ PRODUCT_PACKAGES += \
     CarrierSettingsConfigOverlay \
     CarrierSettingsOverlay \
     CarrierSettingsProviderOverlay \
-    CarrierSettingsSystemUIOverlay
-
-ifeq ($(TARGET_IS_PIXEL), true)
-PRODUCT_PACKAGES += \
+    CarrierSettingsSystemUIOverlay \
     ManagedProvisioningPixelOverlay \
     NowPlayingOverlay \
     PixelBatteryHealthOverlay \
     PixelDisableLEDOverlay \
     PixelSetupWizardOverlay2019 \
-    PixelSetupWizardOverlay2021
-endif
-
-ifeq ($(TARGET_IS_PIXEL_7), true)
-PRODUCT_PACKAGES += \
-    PixelConnectivityOverlay2022
-endif
-
-ifeq ($(TARGET_PIXEL_STAND_SUPPORTED), true)
-PRODUCT_PACKAGES += \
+    PixelSetupWizardOverlay2021 \
     DreamlinerOverlay
-endif
