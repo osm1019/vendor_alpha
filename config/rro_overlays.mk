@@ -14,12 +14,11 @@
 # limitations under the License.
 #
 
-# Evolution X Overlays
+# RRO Overlays
 PRODUCT_PACKAGES += \
-    EvolutionXConfigOverlay \
-    ImmersiveNavigationOverlay \
+    AlphaConfigOverlay \
     NetworkStackOverlay \
-    PixelLauncherIconsOverlay \
+    PixelLauncherIconsOverlay
 
 # Google Overlays
 PRODUCT_PACKAGES += \
@@ -28,6 +27,7 @@ PRODUCT_PACKAGES += \
     CaptivePortalLoginOverlay \
     CellBroadcastReceiverOverlay \
     CellBroadcastServiceOverlay \
+    ClearCallingSettingsOverlay2022 \
     ContactsProviderOverlay \
     DMServiceOverlay \
     FlipendoOverlay \
@@ -49,16 +49,20 @@ PRODUCT_PACKAGES += \
     TelecomOverlay \
     TelephonyProviderOverlay \
     WildlifeSettingsVpnOverlay2022 \
-    WildlifeSysuiVpnOverlay2022 \
-    ClearCallingSettingsOverlay2022 \
-    CarrierSettingsConfigOverlay \
-    CarrierSettingsOverlay \
-    CarrierSettingsProviderOverlay \
-    CarrierSettingsSystemUIOverlay \
+    WildlifeSysuiVpnOverlay2022
+
+PRODUCT_PACKAGES += \
     ManagedProvisioningPixelOverlay \
     NowPlayingOverlay \
     PixelBatteryHealthOverlay \
     PixelDisableLEDOverlay \
     PixelSetupWizardOverlay2019 \
-    PixelSetupWizardOverlay2021 \
+    PixelSetupWizardOverlay2021
+
+ifeq ($(TARGET_IS_PIXEL_7), true)
+PRODUCT_PACKAGES += \
+    PixelConnectivityOverlay2022
+endif
+
+PRODUCT_PACKAGES += \
     DreamlinerOverlay
