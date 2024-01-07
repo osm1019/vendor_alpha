@@ -17,7 +17,6 @@
 # RRO Overlays
 PRODUCT_PACKAGES += \
     AlphaConfigOverlay \
-    NetworkStackOverlay \
     PixelLauncherIconsOverlay
 
 # Google Overlays
@@ -57,12 +56,8 @@ PRODUCT_PACKAGES += \
     PixelBatteryHealthOverlay \
     PixelDisableLEDOverlay \
     PixelSetupWizardOverlay2019 \
-    PixelSetupWizardOverlay2021
-
-ifeq ($(TARGET_IS_PIXEL_7), true)
-PRODUCT_PACKAGES += \
+    PixelSetupWizardOverlay2021 \
     PixelConnectivityOverlay2022
-endif
 
 PRODUCT_PACKAGES += \
     DreamlinerOverlay
