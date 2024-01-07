@@ -15,5 +15,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # GMS
 ifeq ($(WITH_GMS),true)
-$(call inherit-product, vendor/gms/gms_full.mk)
+$(call inherit-product, vendor/gms/products/gms.mk)
 endif

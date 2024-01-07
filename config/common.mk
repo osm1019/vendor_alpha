@@ -190,8 +190,8 @@ endif
 # SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
-    Settings \
-    SystemUI
+    SettingsGoogle \
+    SystemUIGoogle
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.systemuicompilerfilter=speed
@@ -227,6 +227,9 @@ TARGET_SHIPS_FIRMWARE ?= false
 ifeq ($(TARGET_SHIPS_FIRMWARE),true)
 $(call inherit-product, vendor/firmware/build/core/config.mk)
 endif
+
+$(call inherit-product-if-exists, vendor/certification/config.mk)
+
 
 -include vendor/lineage/config/version.mk
 -include vendor/lineage-priv/keys/keys.mk
