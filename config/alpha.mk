@@ -1,5 +1,10 @@
 PRODUCT_BRAND ?= Alpha
 
+# Packages
+#PRODUCT_PACKAGES += \
+#    Launcher3QuickStep
+
+
 ifeq ($(TARGET_INCLUDE_MATLOG),true)
 PRODUCT_PACKAGES += \
     MatLog
@@ -14,7 +19,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.launcher.blur.appLaunch=0
 
 # GMS
-ifeq ($(WITH_GMS),true)
-BUILD_GMS_OVERLAYS_AND_PROPS := true
-$(call inherit-product, vendor/gms/products/gms.mk)
-endif
+$(call inherit-product, vendor/gms/gms_full.mk)
+
