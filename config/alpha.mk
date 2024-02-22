@@ -16,5 +16,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # GMS
 ifeq ($(WITH_GMS),true)
 BUILD_GMS_OVERLAYS_AND_PROPS := true
-$(call inherit-product, vendor/gms/products/gms.mk)
+$(call inherit-product, vendor/gms/gms_full.mk)
 endif
