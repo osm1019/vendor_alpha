@@ -191,6 +191,7 @@ endif
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
     Settings \
+    CarSystemUI \
     SystemUI
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
