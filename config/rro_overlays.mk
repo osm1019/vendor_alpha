@@ -50,12 +50,11 @@ PRODUCT_PACKAGES += \
     WildlifeSettingsVpnOverlay2022 \
     WildlifeSysuiVpnOverlay2022 \
     ClearCallingSettingsOverlay2022 \
-    com.android.pixeldisplayservice.auto_generated_rro_product
     ManagedProvisioningPixelOverlay \
     NowPlayingOverlay \
     PixelBatteryHealthOverlay \
     PixelDisableLEDOverlay \
     PixelSetupWizardOverlay2019 \
     PixelSetupWizardOverlay2021 \
-    PixelConnectivityOverlay2022
+    PixelConnectivityOverlay2022 \
     DreamlinerOverlay
