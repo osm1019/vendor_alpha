@@ -7,6 +7,11 @@ $(call inherit-product, vendor/alpha/config/packages.mk)
 $(call inherit-product, vendor/alpha/config/audio.mk)
 $(call inherit-product-if-exists, vendor/pixel-framework/config.mk)
 
+ifeq ($(WITH_PIXEL_OVERLAYS),true)
+-include vendor/pixeloverlays/config.mk
+endif
+
+
 PRODUCT_BRAND ?= AlphaDroid
 TARGET_SCREEN_WIDTH ?= 1080
 TARGET_SCREEN_HEIGHT ?= 1920
