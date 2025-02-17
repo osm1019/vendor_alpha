@@ -49,7 +49,7 @@ function breakfast()
         else
             # This is probably just the alpha model name
             if [ -z "$variant" ]; then
-                variant="userdebug"
+                variant="user"
             fi
 
             lunch alpha_$target-$variant
