@@ -23,6 +23,7 @@ SHA256 := prebuilts/build-tools/path/$(HOST_PREBUILT_TAG)/sha256sum
 $(ALPHA_TARGET_PACKAGE): $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(ALPHA_TARGET_PACKAGE)
 	$(hide) $(SHA256) $(ALPHA_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(ALPHA_TARGET_PACKAGE).sha256sum
+	$(hide) ./vendor/alpha/build/tools/createjson.sh $(TARGET_DEVICE) $(PRODUCT_OUT) $(ALPHA_VERSION).zip
 	@echo '' >&2
 	@echo '_______ ______         ______          ________                _____ _________ ' >&2
 	@echo '___    |___  /________ ___  /_ ______ ____  __ \______________ ___(_)______  / ' >&2
