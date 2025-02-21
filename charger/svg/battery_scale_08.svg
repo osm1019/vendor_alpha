@@ -1,7 +1,85 @@
-<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="300" height="300" fill="black"/>
-<circle cx="150" cy="150" r="150" fill="#181818"/>
-<path d="M150 20C150 8.9543 158.994 -0.137173 169.941 1.33127C194.494 4.62455 217.959 13.9649 238.168 28.6475C263.795 47.2667 282.87 73.5209 292.658 103.647C302.447 133.774 302.447 166.226 292.658 196.353C284.939 220.109 271.446 241.458 253.518 258.554C245.524 266.177 232.905 264.108 226.412 255.172L153.82 155.257C151.337 151.84 150 147.725 150 143.502L150 20Z" fill="#167c80"/>
-<circle cx="150" cy="150" r="128" fill="black"/>
-<path d="M162.73 230.297L149.298 254.672C149.006 255.202 148.199 254.959 148.247 254.357L149.72 236.199L137.762 236.199C137.336 236.199 137.064 235.742 137.27 235.367L150.703 210.992C150.995 210.462 151.802 210.705 151.753 211.307L150.281 229.465L162.238 229.465C162.665 229.465 162.935 229.922 162.73 230.297Z" fill="white"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   fill="none"
+   version="1.1"
+   id="svg3265"
+   sodipodi:docname="battery_scale_08.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3269">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3778">
+      <stop
+         style="stop-color:#f40000;stop-opacity:1;"
+         offset="0"
+         id="stop3774" />
+      <stop
+         style="stop-color:#ff5813;stop-opacity:1;"
+         offset="1"
+         id="stop3776" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3778"
+       id="linearGradient3780"
+       x1="150"
+       y1="132.2072"
+       x2="299.99975"
+       y2="132.2072"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview3267"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.78666667"
+     inkscape:cx="150"
+     inkscape:cy="150.63559"
+     inkscape:window-width="1680"
+     inkscape:window-height="975"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3265" />
+  <rect
+     width="300"
+     height="300"
+     fill="black"
+     id="rect3255" />
+  <circle
+     cx="150"
+     cy="150"
+     r="150"
+     fill="#181818"
+     id="circle3257" />
+  <path
+     d="M150 20C150 8.9543 158.994 -0.137173 169.941 1.33127C194.494 4.62455 217.959 13.9649 238.168 28.6475C263.795 47.2667 282.87 73.5209 292.658 103.647C302.447 133.774 302.447 166.226 292.658 196.353C284.939 220.109 271.446 241.458 253.518 258.554C245.524 266.177 232.905 264.108 226.412 255.172L153.82 155.257C151.337 151.84 150 147.725 150 143.502L150 20Z"
+     fill="#167c80"
+     id="path3259"
+     style="fill-opacity:1;fill:url(#linearGradient3780)" />
+  <circle
+     cx="150"
+     cy="150"
+     r="128"
+     fill="black"
+     id="circle3261" />
+  <path
+     d="M162.73 230.297L149.298 254.672C149.006 255.202 148.199 254.959 148.247 254.357L149.72 236.199L137.762 236.199C137.336 236.199 137.064 235.742 137.27 235.367L150.703 210.992C150.995 210.462 151.802 210.705 151.753 211.307L150.281 229.465L162.238 229.465C162.665 229.465 162.935 229.922 162.73 230.297Z"
+     fill="white"
+     id="path3263" />
 </svg>

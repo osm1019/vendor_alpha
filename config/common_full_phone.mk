@@ -21,13 +21,3 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.android.mobiledata=false
 
 $(call inherit-product, vendor/alpha/config/common.mk)
-
-# Charger
-PRODUCT_PACKAGES += \
-    charger_res_images
-
-
-PRODUCT_PACKAGES += \
-    lineage_charger_animation \
-    lineage_charger_animation_vendor
-

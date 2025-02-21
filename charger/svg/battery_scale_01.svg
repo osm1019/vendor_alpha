@@ -1,7 +1,62 @@
-<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="300" height="300" fill="black"/>
-<circle cx="150" cy="150" r="150" fill="#181818"/>
-<path d="M150 20C150 8.9543 158.993 -0.137037 169.941 1.33137C172.294 1.64706 174.64 2.0186 176.976 2.44566C187.842 4.43214 193.586 15.8576 190.172 26.3627L189.021 29.9054C181.983 51.5661 150 46.5005 150 23.725L150 20Z" fill="#c62828"/>
-<circle cx="150" cy="150" r="128" fill="black"/>
-<path d="M162.73 230.297L149.298 254.672C149.006 255.202 148.199 254.959 148.247 254.357L149.72 236.199L137.762 236.199C137.336 236.199 137.064 235.742 137.27 235.367L150.703 210.992C150.995 210.462 151.802 210.705 151.753 211.307L150.281 229.465L162.238 229.465C162.665 229.465 162.935 229.922 162.73 230.297Z" fill="white"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   fill="none"
+   version="1.1"
+   id="svg5421"
+   sodipodi:docname="battery_scale_01.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5425" />
+  <sodipodi:namedview
+     id="namedview5423"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.78666667"
+     inkscape:cx="150"
+     inkscape:cy="150.63559"
+     inkscape:window-width="1680"
+     inkscape:window-height="975"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5421" />
+  <rect
+     width="300"
+     height="300"
+     fill="black"
+     id="rect5411" />
+  <circle
+     cx="150"
+     cy="150"
+     r="150"
+     fill="#181818"
+     id="circle5413" />
+  <path
+     d="M150 20C150 8.9543 158.993 -0.137037 169.941 1.33137C172.294 1.64706 174.64 2.0186 176.976 2.44566C187.842 4.43214 193.586 15.8576 190.172 26.3627L189.021 29.9054C181.983 51.5661 150 46.5005 150 23.725L150 20Z"
+     fill="#c62828"
+     id="path5415"
+     style="fill:#f40000;fill-opacity:1" />
+  <circle
+     cx="150"
+     cy="150"
+     r="128"
+     fill="black"
+     id="circle5417" />
+  <path
+     d="M162.73 230.297L149.298 254.672C149.006 255.202 148.199 254.959 148.247 254.357L149.72 236.199L137.762 236.199C137.336 236.199 137.064 235.742 137.27 235.367L150.703 210.992C150.995 210.462 151.802 210.705 151.753 211.307L150.281 229.465L162.238 229.465C162.665 229.465 162.935 229.922 162.73 230.297Z"
+     fill="white"
+     id="path5419" />
 </svg>

@@ -1,7 +1,85 @@
-<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="300" height="300" fill="black"/>
-<circle cx="150" cy="150" r="150" fill="#181818"/>
-<path d="M150 20C150 8.9543 158.993 -0.137085 169.941 1.33136C188.629 3.83801 206.738 9.85427 223.293 19.1256C245.686 31.666 264.486 49.7423 277.896 71.6252C291.306 93.5082 298.877 118.466 299.884 144.111C300.892 169.756 295.303 195.231 283.651 218.099C271.999 240.966 254.675 260.462 233.336 274.72C211.996 288.979 187.355 297.524 161.769 299.538C136.183 301.551 110.509 296.966 87.2011 286.221C69.9695 278.278 54.458 267.163 41.4457 253.518C33.8228 245.524 35.8917 232.905 44.8278 226.412L141.756 155.99C146.935 152.227 150 146.212 150 139.809L150 20Z" fill="#167c80"/>
-<circle cx="150" cy="150" r="128" fill="black"/>
-<path d="M162.73 230.297L149.298 254.672C149.006 255.202 148.199 254.959 148.247 254.357L149.72 236.199L137.762 236.199C137.336 236.199 137.064 235.742 137.27 235.367L150.703 210.992C150.995 210.462 151.802 210.705 151.753 211.307L150.281 229.465L162.238 229.465C162.665 229.465 162.935 229.922 162.73 230.297Z" fill="white"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   fill="none"
+   version="1.1"
+   id="svg9031"
+   sodipodi:docname="battery_scale_13.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9035">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient9544">
+      <stop
+         style="stop-color:#ff5813;stop-opacity:1;"
+         offset="0"
+         id="stop9540" />
+      <stop
+         style="stop-color:#d7f400;stop-opacity:1;"
+         offset="1"
+         id="stop9542" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9544"
+       id="linearGradient9546"
+       x1="36.760442"
+       y1="150.58768"
+       x2="299.99975"
+       y2="150.58768"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview9033"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.78666667"
+     inkscape:cx="150"
+     inkscape:cy="150.63559"
+     inkscape:window-width="1680"
+     inkscape:window-height="975"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9031" />
+  <rect
+     width="300"
+     height="300"
+     fill="black"
+     id="rect9021" />
+  <circle
+     cx="150"
+     cy="150"
+     r="150"
+     fill="#181818"
+     id="circle9023" />
+  <path
+     d="M150 20C150 8.9543 158.993 -0.137085 169.941 1.33136C188.629 3.83801 206.738 9.85427 223.293 19.1256C245.686 31.666 264.486 49.7423 277.896 71.6252C291.306 93.5082 298.877 118.466 299.884 144.111C300.892 169.756 295.303 195.231 283.651 218.099C271.999 240.966 254.675 260.462 233.336 274.72C211.996 288.979 187.355 297.524 161.769 299.538C136.183 301.551 110.509 296.966 87.2011 286.221C69.9695 278.278 54.458 267.163 41.4457 253.518C33.8228 245.524 35.8917 232.905 44.8278 226.412L141.756 155.99C146.935 152.227 150 146.212 150 139.809L150 20Z"
+     fill="#167c80"
+     id="path9025"
+     style="fill-opacity:1;fill:url(#linearGradient9546)" />
+  <circle
+     cx="150"
+     cy="150"
+     r="128"
+     fill="black"
+     id="circle9027" />
+  <path
+     d="M162.73 230.297L149.298 254.672C149.006 255.202 148.199 254.959 148.247 254.357L149.72 236.199L137.762 236.199C137.336 236.199 137.064 235.742 137.27 235.367L150.703 210.992C150.995 210.462 151.802 210.705 151.753 211.307L150.281 229.465L162.238 229.465C162.665 229.465 162.935 229.922 162.73 230.297Z"
+     fill="white"
+     id="path9029" />
 </svg>

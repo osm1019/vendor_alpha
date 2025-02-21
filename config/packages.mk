@@ -45,6 +45,12 @@ endif
 PRODUCT_PACKAGES += \
     bootanimation.zip
 
+# Charger animation
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    alpha_charger_animation \
+    alpha_charger_animation_vendor
+
 # Overlays
 PRODUCT_PACKAGES += \
     DocumentsUIOverlay \
@@ -90,7 +96,7 @@ PRODUCT_PACKAGES += \
     mkfs.ntfs \
     mount.ntfs
 
-# Extra tools in Lineage
+# Extra tools
 PRODUCT_PACKAGES += \
     bash \
     curl \
