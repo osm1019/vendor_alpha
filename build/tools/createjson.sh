@@ -17,9 +17,13 @@
 #
 
 #$1=TARGET_DEVICE, $2=PRODUCT_OUT, $3=FILE_NAME
-existingOTAjson=./vendor/OTA/$1.json
-output=$2/$1.json
-buildprop="$2/system/build.prop"
+DEVICE=$1
+OUT=$2
+FILENAME=$3
+
+existingOTAjson=./vendor/OTA/$DEVICE.json
+output=$OUT/$DEVICE.json
+buildprop="$OUT/system/build.prop"
 
 # Cleanup old file
 if [ -f $output ]; then
@@ -33,26 +37,22 @@ extract_field() {
 
 # Helper function to extract prop from prop file
 extract_prop() {
-    grep "$1" "$buildprop" | cut -d'=' -f2
+    grep -m 1 "$1" "$buildprop" | cut -d'=' -f2
 }
 
 # Generate JSON fields
 VERSION=$(extract_prop "ro.alpha.build.version")
 BUILDTYPE=$(extract_prop "ro.alpha.release.type")
-VARIANT=$(extract_prop "ro.alpha.build.variant")
-DEVICE=$(extract_prop "ro.alpha.device")
+BUILDVARIANT=$(extract_prop "ro.alpha.build.variant")
 MAINTAINER=$(extract_prop "ro.alpha.maintainer")
 TIMESTAMP=$(extract_prop "ro.system.build.date.utc")
-MD5=$(md5sum "$2/$3" | cut -d' ' -f1)
-SHA256=$(sha256sum "$2/$3" | cut -d' ' -f1)
-SIZE=$(stat -c "%s" "$2/$3")
+MD5=$(md5sum "$OUT/$FILENAME" | cut -d' ' -f1)
+SHA256=$(sha256sum "$OUT/$FILENAME" | cut -d' ' -f1)
+SIZE=$(stat -c "%s" "$OUT/$FILENAME")
 
 if [ -f $existingOTAjson ]; then
     # Extract fields from existing JSON or leave empty
-    MAINTAINER=$(extract_field "maintainer")
     OEM=$(extract_field "oem")
-    DEVICE=$(extract_field "device")
-    BUILDTYPE=$(extract_field "buildtype")
     FORUM=$(extract_field "forum")
     GAPPS=$(extract_field "gapps")
     FIRMWARE=$(extract_field "firmware")
@@ -73,15 +73,16 @@ cat <<EOF >$output
         {
             "maintainer": "${MAINTAINER:-}",
             "oem": "${OEM:-}",
-            "device": "${DEVICE:-}",
-            "filename": "$3",
-            "download": "https://sourceforge.net/projects/alphadroid-project/files/$1/$3/download",
+            "device": "$DEVICE",
+            "filename": "$FILENAME",
+            "download": "https://sourceforge.net/projects/alphadroid-project/files/$DEVICE/$FILENAME/download",
             "timestamp": $TIMESTAMP,
             "md5": "$MD5",
             "sha256": "$SHA256",
             "size": $SIZE,
             "version": "$VERSION",
-            "buildtype": "${BUILDTYPE:-}",
+            "buildtype": "$BUILDTYPE",
+            "buildvariant": "$BUILDVARIANT",
             "forum": "${FORUM:-}",
             "gapps": "${GAPPS:-}",
             "firmware": "${FIRMWARE:-}",
