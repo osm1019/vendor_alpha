@@ -21,7 +21,7 @@ $(TARGET_GENERATED_BOOTANIMATION): $(SOONG_ZIP)
 	@echo "Building bootanimation.zip"
 	@rm -rf $(dir $@)
 	@mkdir -p $(INTERMEDIATES)
-	$(hide) tar xfp vendor/alpha/bootanimation/bootanimation.tar -C $(INTERMEDIATES)
+	$(hide) tar --lzma -xf vendor/alpha/bootanimation/bootanimation.tar -C $(INTERMEDIATES)
 	$(hide) if [ $(TARGET_SCREEN_HEIGHT) -lt $(TARGET_SCREEN_WIDTH) ]; then \
 	    IMAGEWIDTH=$(TARGET_SCREEN_HEIGHT); \
 	else \
